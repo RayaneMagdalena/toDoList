@@ -11,7 +11,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto Painel" src=".github/Capa.jpg" width="100%">
+  <img alt="projeto Painel" src="./public/assets/readmeDesktop.jpg" width="100%">
 </p>
 
 <h4 align="center"> 
@@ -21,7 +21,7 @@
 ## Sobre
 <br>
 
-Projeto desenvolvido com React.js com o objetivo de treinar o desenvolvimento web. 
+Projeto desenvolvido com React.js com o objetivo de treinar o desenvolvimento web. <br>
 Trata-se de uma página de lista de tarefas, onde é possível adicionar novas tarefas, marca-las como concluídas e deleta-las da lista.
 Conta também com um campo de busca e dois filtros, um filtra o status da tarefa e o outro a categoria.
 
