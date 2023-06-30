@@ -3,9 +3,10 @@ import "./Filter.css";
 const Filter = ({ filter, setFilter, categoryFilter, setCategoryFilter }) => {
   return (
     <div>
-      <h3>Filtrar</h3>
+
       <div className="filter">
         <div className="filter-container">
+          <p>Status:</p>
           <select value={filter} onChange={(e) => setFilter(e.target.value)}>
             <option value="Todas">Todas</option>
             <option value="Completas">Completas</option>
@@ -14,6 +15,7 @@ const Filter = ({ filter, setFilter, categoryFilter, setCategoryFilter }) => {
         </div>
 
         <div className="filter-container">
+          <p>Categoria:</p>
           <select
             value={categoryFilter}
             onChange={(e) => setCategoryFilter(e.target.value)}
