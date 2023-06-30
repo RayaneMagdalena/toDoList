@@ -1,0 +1,37 @@
+  .todo-content {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .todo-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-buttons button{
+        margin: .3rem;
+    border-radius: 5px;
+      }
+    
+      .button-done {
+        padding: .3rem 1.7rem;
+    background-color: #5cb85c;
+    
+      }
+    
+      .button-delete {
+        padding: .3rem .5rem;
+    background-color: #d9534f;
+      }
+
+      .completed {
+        text-decoration: line-through;
+        /* Outros estilos para tarefas completas */
+      }

@@ -1,0 +1,32 @@
+.todo-form {
+    padding-bottom: 1.5rem;
+}
+
+.todo-form h2 {
+    margin: 1rem;
+    text-align: center;
+}
+
+.todo-form input, select {
+    padding: 5px;
+      border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.todo-form select {
+    margin-top: 1.3rem;
+}
+
+.error-message {
+    color: red;
+    font-size: .8rem;
+    margin-top: .2rem;
+  }
+
+.todo-form button {
+    background-color: #6920ad;
+    padding: .3rem 1.5rem;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}

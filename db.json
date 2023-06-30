@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "Nova Tarefa",
+      "category": "Trabalho",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "text": "Tarefa dois",
+      "category": "Estudo",
+      "isCompleted": false
+    }
+  ]
+}
