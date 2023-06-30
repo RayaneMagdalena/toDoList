@@ -49,7 +49,7 @@ padding: .6rem;
   .button {
     padding: .3rem 1rem;
     display:flex ;
-        background-color: #FFAA9B;
+               background-color: #f5c4bb;
       }
       
       .button img {
@@ -58,7 +58,7 @@ padding: .6rem;
       }
       
       .done {
-    background-color: #9eff9b;
+               background-color: #cbdb89;
     
   }
   .completed {

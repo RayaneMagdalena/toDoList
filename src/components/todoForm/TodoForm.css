@@ -1,15 +1,16 @@
 .todo-form {
     padding-bottom: 1.5rem;
+        margin-top: 3.5rem;
 }
 
 .todo-form h2 {
-    margin: 1rem;
+    margin: .8rem;
     text-align: center;
 }
 
 .todo-form input, select {
     padding: 5px;
-      border: 1px solid #ddd;
+      border: 1px solid #a09d9d;
     border-radius: 3px;
     width: 100%;
 }
@@ -18,15 +19,26 @@
     margin-top: 1.3rem;
 }
 
+.todo-form input,select:focus {
+    outline: none;
+}
+
 .error-message {
     color: red;
     font-size: .8rem;
     margin-top: .2rem;
   }
 
-.todo-form button {
-    background-color: #6920ad;
-    padding: .3rem 1.5rem;
+  .todo-form-button {
+    display: flex;
+    justify-content: center;
+  }
+.todo-form-button button {
+    
+    background-color: #bec6c9;
+    padding: .5rem 6rem;
     border-radius: 5px;
     margin-top: 1.5rem;
+    font-weight: 600;
+    border: 1px solid #575454;
 }

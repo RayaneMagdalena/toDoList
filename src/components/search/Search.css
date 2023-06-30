@@ -8,8 +8,8 @@
     padding: .3rem;
     padding-left: 2rem;
    
-    border: 1px solid #636262;
-    border-radius: 1rem;
+    border: none;
+    border-bottom: 1px solid #636262;
     width: 100%;
 }
 

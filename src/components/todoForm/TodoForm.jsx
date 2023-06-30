@@ -11,8 +11,7 @@ const TodoForm = ({ addTodo }) => {
 //   F. de envio de formulário
   const handleSubmit = (e) => {
     e.preventDefault();
-    // se não tiver preenchido interropno a função aqui
-    // 
+    // se não tiver preenchido interrompo a função aqui
     const newErrors = {};
 
   if (!value.trim()) {
@@ -39,11 +38,11 @@ const TodoForm = ({ addTodo }) => {
 
   return (
     <div className="todo-form">
-      <h2>Criar tarefas</h2>
+      <h2>Adicionar tarefa</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Digite aqui"
+          placeholder="Qual a sua tarefa?"
           name="todoInput"
           onChange={(e) => setValue(e.target.value)}
           value={value}
@@ -63,7 +62,9 @@ const TodoForm = ({ addTodo }) => {
         </select>
         <div className="error-message">{errors.category}</div>
         
-        <button type="submit">CRIAR TAREFA</button>
+        <div className="todo-form-button">
+        <button type="submit">ADICIONAR</button>
+        </div>
       </form>
     </div>
   );
